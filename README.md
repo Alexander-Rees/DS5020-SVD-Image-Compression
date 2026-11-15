@@ -2,6 +2,10 @@
 
 ## Iteration 2
 
+**Project lead:** Alexander Rees
+
+**Team members:** Alexander Rees and Jiaxiao Chen
+
 [Read the report](docs/iteration-2-report.pdf) · [Download the Excel project plan](docs/project-plan.xlsx) · [Edit the LaTeX source](docs/main.tex)
 
 The report answers all five SVD questions and compares the measured residual against the discarded singular-value energy. In the seeded simulation, rank five stores 1,005 of 9,600 scalars and gives squared error 0.87302222. The factor count assumes equal scalar widths. The report also gives a byte comparison for the 8-bit photograph.
