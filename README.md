@@ -2,6 +2,12 @@
 
 ## Iteration 2
 
+[Read the report](docs/iteration-2-report.pdf) · [Download the Excel project plan](docs/project-plan.xlsx) · [Edit the LaTeX source](docs/main.tex)
+
+The report answers all five SVD questions and compares the measured residual against the discarded singular-value energy. In the seeded simulation, rank five stores 1,005 of 9,600 scalars and gives squared error 0.87302222. The factor count assumes equal scalar widths. The report also gives a byte comparison for the 8-bit photograph.
+
+The LaTeX source uses the two generated PNGs in `figures/`. To reproduce the PDF locally, run `tectonic main.tex` from `docs/`. For Overleaf, upload `main.tex` at the project root and put both PNGs in a `figures/` folder. The review record on page 6 has space for both members' sign-offs. The clean singular values in the results table can be reproduced inside the simulation from `np.sqrt(clean_eigenvalues[-rank:][::-1])`; subsequent values are zero by construction.
+
 Run these commands from the repository root.
 
 ```sh
