@@ -4,3 +4,5 @@ __pycache__/
 !/data/.gitkeep
 /figures/*
 !/figures/.gitkeep
+!/figures/grayscale_image.png
+!/figures/brightness_histogram.png
