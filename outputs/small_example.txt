@@ -1,0 +1,36 @@
+A =
+[[3 0]
+ [4 5]]
+G = A.T @ A =
+[[25 20]
+ [20 25]]
+det(lambda I - G) = lambda^2 - 50 lambda + 225
+Eigenvalues: 45 5
+Unnormalized eigenvectors (columns):
+[[ 1  1]
+ [ 1 -1]]
+V =
+[[ 0.70710678  0.70710678]
+ [ 0.70710678 -0.70710678]]
+Singular values: 3 sqrt(5), sqrt(5) [6.70820393 2.23606798]
+A @ V =
+[[ 2.12132034  2.12132034]
+ [ 6.36396103 -0.70710678]]
+U =
+[[ 0.31622777  0.9486833 ]
+ [ 0.9486833  -0.31622777]]
+Sigma =
+[[6.70820393 0.        ]
+ [0.         2.23606798]]
+A1 =
+[[1.5 1.5]
+ [4.5 4.5]]
+Exact A1 entries: [['3/2', '3/2'], ['9/2', '9/2']]
+Exact residual entries: [['3/2', '-3/2'], ['-1/2', '1/2']]
+Exact squared residual: 5
+Rank-one approximation           max|diff| = 8.882e-16   rel = 1.930e-16   PASS
+Squared rank-one error           max|diff| = 0.000e+00   rel = 0.000e+00   PASS
+Eigenpair substitution           max|diff| = 7.105e-15   rel = 1.801e-16   PASS
+Full reconstruction              max|diff| = 8.882e-16   rel = 1.885e-16   PASS
+Power SVD vs exact spectrum      max|diff| = 4.441e-16   rel = 6.280e-17   PASS
+Power SVD reconstruction         max|diff| = 1.332e-15   rel = 2.344e-16   PASS

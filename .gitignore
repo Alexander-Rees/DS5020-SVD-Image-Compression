@@ -6,3 +6,4 @@ __pycache__/
 !/figures/.gitkeep
 !/figures/grayscale_image.png
 !/figures/brightness_histogram.png
+!/data/camera.png
