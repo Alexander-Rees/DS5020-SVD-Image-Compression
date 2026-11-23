@@ -6,6 +6,12 @@ Snapshot: 22 November 2026. Implementation reviewed:
 The non-code deliverables are prepared and reviewed. The original implementation,
 tests, data, saved outputs and Iteration 2 source/PDF are preserved.
 
+[PR #2](https://github.com/Alexander-Rees/DS5020-SVD-Image-Compression/pull/2)
+was merged in commit 558a5d5cab8febab8aede85926313496951ef4a9.
+The report was uploaded to Overleaf as **DS5020 SVD - Iteration 3**, compiled
+successfully to 13 pages, and shared with **Anyone with the link — Viewer** access.
+[Open the read-only report](https://www.overleaf.com/project/6b03a7863d44887d7d35ab2e/share#41f666e896de2165750bdd2c9c91dd01e698d02b53dd03a9).
+
 | Deliverable | Evidence |
 |---|---|
 | Compiled report | [iteration-3-report.pdf](iteration-3-report.pdf) |
@@ -47,7 +53,6 @@ instruction remains necessary. No exception has been claimed.
 |---|---|
 | Resolve and record the leader-rotation exception | Team / instructor |
 | Record the other student's actual check | Each student; AI review is separate |
-| Upload reviewed sources to Overleaf and verify the view-only link | Team |
 | Submit repository and Overleaf read-only links to Canvas | Jiaxiao Chen and Alexander Rees, separately |
 
 The user confirmed a 50/50 overall contribution split. The technical review finds
@@ -57,5 +62,5 @@ reproducible results supported by all three scripts and seven passing tests.
 At the user's request, Claude assisted with drafting and Codex performed the
 independent mathematical, numerical and document review. This does not certify
 student ownership or replace the required second-member check. No student
-signatures, contributions, Overleaf publication, or Canvas submissions were
+signatures, task-specific contributions, or Canvas submissions were
 invented.
