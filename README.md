@@ -32,7 +32,7 @@ All three regenerated charts are identical to the saved figures. The original
 source, tests, data, saved outputs and Iteration 2 report/source are preserved.
 
 Open team actions are listed in the status file: contribution and second-member
-fields, signatures, the Overleaf view-only link, and each member's Canvas submission.
+work and peer-check fields, the Overleaf view-only link, and each member's Canvas submission.
 
 ### Reproduce the results
 
