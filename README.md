@@ -2,6 +2,40 @@
 
 ## Iteration 3
 
+**Project lead:** Jiaxiao Chen (also led Iteration 1; Alexander Rees led Iteration 2).
+The handout's new-leader rule cannot be met by a two-person team over three
+iterations, so an instructor exception is pending.
+
+**Team members:** Jiaxiao Chen and Alexander Rees
+
+[Report PDF](docs/iteration-3-report.pdf) · [LaTeX source](docs/iteration-3/main.tex) · [Build and Overleaf upload steps](docs/iteration-3/README.md) · [Status and requirements checklist](docs/iteration-3-status.md) · [Excel project plan](docs/project-plan.xlsx)
+
+The existing code implements the Iteration 2 Gram-matrix derivation as a from-scratch
+NumPy solver using projected power iteration, Rayleigh quotients and deflation.
+The report documents and verifies that implementation.
+It works an exact 2 × 2 example and answers the five math questions. It checks the
+solver against clean simulation truth and `numpy.linalg`, and applies it to the camera
+photograph. Results from the stored outputs (verification snapshot 22 November 2026):
+
+- Exact example `A = [[3, 0], [4, 5]]`: eigenvalues 45 and 5, and ‖A − A₁‖²_F = 5 = σ₂² exactly.
+- Simulation (120 × 80, rank 5, noise 0.01, seed 0): largest deviation from the clean
+  singular values 1.862e-02, inside the per-value 0.03 band (three first-order SDs).
+  Agreement with NumPy SVD is 7.105e-14.
+- Photograph (512 × 512): three components retain 95.09558793% of the energy, but the
+  rank-3 image is visually poor. Measured squared error equals the discarded tail at
+  k = 3, 5, 20 and 50.
+
+An [independent rerun](docs/verification-2026-11-22/) passed all three scripts and
+all seven existing tests. Its simulation SVD difference is 4.263e-14; final
+rounding digits and measured NPZ sizes vary slightly from the committed run.
+All three regenerated charts are identical to the saved figures. The original
+source, tests, data, saved outputs and Iteration 2 report/source are preserved.
+
+Open team actions are listed in the status file: contribution and second-member
+fields, signatures, the Overleaf view-only link, and each member's Canvas submission.
+
+### Reproduce the results
+
 Run from the repository root after installing `requirements.txt` in a virtual
 environment:
 
@@ -69,9 +103,22 @@ Run the verification regression checks with
   original image and the requested reconstructions.
 
 The simulation data is regenerated from the recorded parameters and seeds; no
-separate simulated dataset is needed. The Iteration 3 report and updated project
-plan are still to be completed. The files under `docs/` currently document
-Iteration 2.
+separate simulated dataset is needed.
+
+### Report sources and build
+
+| Path | Contents |
+|---|---|
+| `docs/iteration-3/main.tex` | Iteration 3 report source; self-contained with `docs/iteration-3/figures/` (copies of the three `outputs/` PNGs) |
+| `docs/iteration-3-report.pdf` | Compiled Iteration 3 report |
+| `docs/iteration-3-status.md` | Requirements checklist, release steps and open team actions |
+| `docs/main.tex`, `docs/iteration-2-report.pdf` | Historical Iteration 2 source and signed report (unchanged) |
+
+To rebuild the PDF, run `tectonic main.tex` in `docs/iteration-3/` and copy
+`main.pdf` to `docs/iteration-3-report.pdf`. Upload steps for Overleaf, and the
+mapping from every report table to its script and output file, are in
+[`docs/iteration-3/README.md`](docs/iteration-3/README.md). If a rerun changes any
+printed digit, update `main.tex` as described there.
 
 ## Iteration 2
 

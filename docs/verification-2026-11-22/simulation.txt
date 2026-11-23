@@ -1,0 +1,43 @@
+BASELINE: 120 x 80, seed 0, rank 5, noise 0.01
+Clean singular values: [109.14272273 100.38528613  94.89363372  78.44168782  71.87567538]
+Spectrum vs clean truth          max|diff| = 1.862e-02   rel = 1.180e-04   PASS
+Observed estimate: [109.15108453 100.37506407  94.88867151  78.42306526  71.88222284]
+Singular values                  max|diff| = 4.263e-14   rel = 3.313e-16   PASS
+SVD U orthogonality              max|diff| = 6.325e-14   rel = 7.026e-14   PASS
+SVD V orthogonality              max|diff| = 2.220e-16   rel = 1.311e-16   PASS
+V subspace 1:1                   max|diff| = 9.371e-14   rel = 3.377e-13   PASS
+U paired subspace 1:1            max|diff| = 7.391e-14   rel = 3.102e-13   PASS
+V subspace 2:2                   max|diff| = 1.471e-13   rel = 6.010e-13   PASS
+U paired subspace 2:2            max|diff| = 1.750e-13   rel = 5.963e-13   PASS
+V subspace 3:3                   max|diff| = 1.633e-13   rel = 5.244e-13   PASS
+U paired subspace 3:3            max|diff| = 1.156e-13   rel = 5.438e-13   PASS
+V subspace 4:4                   max|diff| = 1.003e-13   rel = 3.084e-13   PASS
+U paired subspace 4:4            max|diff| = 6.581e-14   rel = 3.116e-13   PASS
+V subspace 5:5                   max|diff| = 6.055e-14   rel = 2.602e-13   PASS
+U paired subspace 5:5            max|diff| = 7.500e-14   rel = 2.836e-13   PASS
+Shape=(120, 80), ndim=2, finite=9600/9600, dtype=float64, range=[-11.0534, 11.7929]
+Gram symmetry                    max|diff| = 0.000e+00   rel = 0.000e+00   PASS
+U.T @ U                          max|diff| = 6.325e-14   rel = 7.026e-14   PASS
+V.T @ V                          max|diff| = 2.220e-16   rel = 1.311e-16   PASS
+Min Gram eigenvalue=0.00048961674, PSD=True, cutoff=3.1745165e-10, min retained eigenvalue=5167.054, positive above cutoff=True, descending=True
+Gram positive semidefinite       max|diff| = 0.000e+00   rel = 0.000e+00   PASS
+Retained values above cutoff     max|diff| = 0.000e+00   rel = 0.000e+00   PASS
+Descending singular values       max|diff| = 0.000e+00   rel = 0.000e+00   PASS
+Measured squared residual=0.873022217597, library tail=0.873022217597
+Squared residual vs tail         max|diff| = 0.000e+00   rel = 0.000e+00   PASS
+Storage: 1005/9600 scalars, factors=float64, pixels=float64, 8040/76800 raw bytes
+
+TRUTH SWEEP: relative singular-value error, RMS over seeds 0–9
+30 x 20: n=20, RMS relative error=0.00039336608
+120 x 80: n=80, RMS relative error=9.4473875e-05
+480 x 320: n=320, RMS relative error=2.4609844e-05
+
+STRESS TEST: k=8
+i=1: sigma_next/sigma=0.919597, Gram power rate=0.845660, steps=174, converged=True
+i=2: sigma_next/sigma=0.945341, Gram power rate=0.893670, steps=260, converged=True
+i=3: sigma_next/sigma=0.826474, Gram power rate=0.683060, steps=77, converged=True
+i=4: sigma_next/sigma=0.916595, Gram power rate=0.840147, steps=172, converged=True
+i=5: sigma_next/sigma=0.002642, Gram power rate=0.000007, steps=4, converged=True
+i=6: sigma_next/sigma=0.968960, Gram power rate=0.938884, steps=436, converged=True
+i=7: sigma_next/sigma=0.987454, Gram power rate=0.975065, steps=1069, converged=True
+i=8: sigma_next/sigma=0.992738, Gram power rate=0.985529, steps=1752, converged=True
