@@ -12,7 +12,11 @@ iterations, so an instructor exception is pending.
 **Technical review:** Clear math-to-code mapping and reproducible experiments;
 all three scripts and seven existing tests passed.
 
-[Report PDF](docs/iteration-3-report.pdf) · [LaTeX source](docs/iteration-3/main.tex) · [Build and Overleaf upload steps](docs/iteration-3/README.md) · [Status and requirements checklist](docs/iteration-3-status.md) · [Excel project plan](docs/project-plan.xlsx)
+[Overleaf read-only report](https://www.overleaf.com/project/6b03a7863d44887d7d35ab2e/share#41f666e896de2165750bdd2c9c91dd01e698d02b53dd03a9) · [Report PDF](docs/iteration-3-report.pdf) · [LaTeX source](docs/iteration-3/main.tex) · [Status and requirements checklist](docs/iteration-3-status.md) · [Excel project plan](docs/project-plan.xlsx)
+
+[PR #2](https://github.com/Alexander-Rees/DS5020-SVD-Image-Compression/pull/2)
+is merged. The Overleaf project **DS5020 SVD - Iteration 3** compiled to 13 pages;
+link access is set to **Anyone with the link — Viewer**.
 
 The existing code implements the Iteration 2 Gram-matrix derivation as a from-scratch
 NumPy solver using projected power iteration, Rayleigh quotients and deflation.
@@ -36,7 +40,7 @@ All three regenerated charts are identical to the saved figures. The original
 source, tests, data, saved outputs and Iteration 2 report/source are preserved.
 
 Open team actions are listed in the status file: the leader-rule exception,
-student peer-check details, the Overleaf view-only link, and each member's Canvas submission.
+student peer-check details, and each member's Canvas submission.
 
 ### Reproduce the results
 
