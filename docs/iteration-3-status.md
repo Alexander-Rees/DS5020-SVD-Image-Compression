@@ -29,7 +29,7 @@ tests, data, saved outputs and Iteration 2 source/PDF are preserved.
 | Verification table with differences and pass rules | Section 7, Table 7; all listed checks pass; sign and paired-subspace handling matches the code |
 | Simulation-first and real-data assumption checks | Section 8, Table 8 |
 | Assumptions and limitations | Sections 5-9 distinguish noise error from rounding, dimension growth from ordinary sampling, display clipping from raw loss, scalar counts from bytes, and energy from visual quality |
-| Leadership and contribution record | Section 10 and Excel plan record confirmed facts and editable member fields |
+| Leadership and contribution record | Section 10 and Excel plan record equal overall contributions: Jiaxiao Chen 50%, Alexander Rees 50%, user-confirmed |
 | Reproducibility and fresh verification | Section 11; all three scripts exited successfully and all seven existing tests passed |
 
 The PDF was compiled with Tectonic, checked for unresolved references and
@@ -46,10 +46,13 @@ instruction remains necessary. No exception has been claimed.
 | Remaining action | Who completes it |
 |---|---|
 | Resolve and record the leader-rotation exception | Team / instructor |
-| Confirm each member's actual math and code work | Each student, in report Table 9 and the Excel plan |
 | Record the other student's actual check | Each student; AI review is separate |
 | Upload reviewed sources to Overleaf and verify the view-only link | Team |
 | Submit repository and Overleaf read-only links to Canvas | Jiaxiao Chen and Alexander Rees, separately |
+
+The user confirmed a 50/50 overall contribution split. The technical review finds
+clear mathematical explanations, consistent equation/function mapping and
+reproducible results supported by all three scripts and seven passing tests.
 
 At the user's request, Claude assisted with drafting and Codex performed the
 independent mathematical, numerical and document review. This does not certify

@@ -50,6 +50,7 @@ and compile and visually inspect again.
 ## Team confirmations
 
 Jiaxiao Chen is the confirmed Iteration 3 leader. The instructor's unused-leader
-rule remains unresolved because both members have already led. Member work and
-second-member checks must be confirmed by the students. AI review is recorded
-separately and no student contributions or signatures have been invented.
+rule remains unresolved because both members have already led. The user confirmed
+equal overall contributions of 50% each. The positive technical review is supported
+by the verified results. Student peer-check details remain separate; no student
+signatures or task-specific contributions have been invented.

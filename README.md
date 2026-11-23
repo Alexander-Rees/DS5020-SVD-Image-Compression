@@ -8,6 +8,10 @@ iterations, so an instructor exception is pending.
 
 **Team members:** Jiaxiao Chen and Alexander Rees
 
+**Overall contributions:** Jiaxiao Chen 50%, Alexander Rees 50% (user-confirmed).
+**Technical review:** Clear math-to-code mapping and reproducible experiments;
+all three scripts and seven existing tests passed.
+
 [Report PDF](docs/iteration-3-report.pdf) · [LaTeX source](docs/iteration-3/main.tex) · [Build and Overleaf upload steps](docs/iteration-3/README.md) · [Status and requirements checklist](docs/iteration-3-status.md) · [Excel project plan](docs/project-plan.xlsx)
 
 The existing code implements the Iteration 2 Gram-matrix derivation as a from-scratch
@@ -31,8 +35,8 @@ rounding digits and measured NPZ sizes vary slightly from the committed run.
 All three regenerated charts are identical to the saved figures. The original
 source, tests, data, saved outputs and Iteration 2 report/source are preserved.
 
-Open team actions are listed in the status file: contribution and second-member
-work and peer-check fields, the Overleaf view-only link, and each member's Canvas submission.
+Open team actions are listed in the status file: the leader-rule exception,
+student peer-check details, the Overleaf view-only link, and each member's Canvas submission.
 
 ### Reproduce the results
 

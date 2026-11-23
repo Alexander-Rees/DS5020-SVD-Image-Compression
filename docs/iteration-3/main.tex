@@ -444,21 +444,21 @@ On the photograph the smallest library Gram eigenvalue ($5.5\times10^{-10}$) lie
 
 \textbf{Project lead.} Jiaxiao Chen leads Iteration 3; Jiaxiao also led Iteration 1, and Alexander Rees led Iteration 2. The handout asks each iteration to have a leader who has not previously led. With two members and three iterations that rule cannot be met, so the team needs an instructor exception; it is \emph{pending} and is not claimed here.
 
-\textbf{Commit evidence.} The Iteration 3 code and stored outputs were committed in \fn{3a7dc93} (``Iteration 3 code'', author \fn{AlexRees23}, dated 2026-11-22). Commit authorship records who committed the files. It is not evidence of who wrote each function or derivation, so individual code and math ownership must be confirmed by the members below.
+\textbf{Contributions.} The team reports an equal overall contribution split: Jiaxiao Chen 50\% and Alexander Rees 50\%, confirmed by the user on November 22, 2026. The Iteration 3 implementation and stored outputs are recorded in commit \fn{3a7dc93}. No task-by-task allocation is inferred from commit authorship.
 
 \textbf{AI assistance.} At the user's request, this report was drafted with Claude assistance and independently reviewed with Codex against the handout, source code, committed outputs and fresh script runs. That review is recorded separately. It is not a student signature and does not replace the required check by the second team member.
 
 \begin{table}[H]
 \centering\small
-\caption{Member confirmations. Record only work personally completed and actually checked. The Excel plan provides additional editable fields.}
+\caption{Overall contributions, as confirmed by the user.}
 \label{tab:contrib}
-\begin{tabularx}{\linewidth}{@{}P{2.6cm} L L L@{}}\toprule
-Member & Math work / date & Code work / date & Other member's check / date\\\midrule
-Jiaxiao Chen & \fillin & \fillin & \fillin\\[5pt]
-Alexander Rees & \fillin & \fillin & \fillin\\\bottomrule
+\begin{tabularx}{\linewidth}{@{}L r L@{}}\toprule
+Member & Overall share & Confirmation\\\midrule
+Jiaxiao Chen & 50\% & Equal contribution, user-confirmed\\
+Alexander Rees & 50\% & Equal contribution, user-confirmed\\\bottomrule
 \end{tabularx}
 \end{table}
-Before submission, each member should confirm their own math and code work and record the other member's actual check in Table~\ref{tab:contrib} and the project plan.
+\textbf{Technical review.} The report presents a clear mathematical derivation and consistently connects the equations to the shared implementation. The exact example, reproducible simulation and real-image experiments give strong support for the leading-component results. All three scripts and all seven existing verification tests passed. The assumptions, storage trade-offs and numerical limitations are explained clearly. This positive assessment records the completed AI-assisted technical review; student peer-check details can be recorded separately in the project plan.
 
 \section{Reproducibility}\label{sec:repro}
 \textbf{Independent rerun.} On November 22, 2026, all three unchanged scripts and all seven existing regression tests passed using Python 3.12.14, NumPy 2.5.5, Matplotlib 3.11.2 and Pillow 13.0.0 on macOS ARM64. Fresh stdout and source checksums are retained in \fn{docs/verification-2026-11-22/}. The fresh simulation value comparison gives $4.263\times10^{-14}$ instead of the committed $7.105\times10^{-14}$; the image's largest per-rank tail discrepancy is $3.638\times10^{-12}$ instead of $2.728\times10^{-12}$. Both remain below $10^{-8}$. Measured NPZ byte counts also vary slightly with floating-point factor entries and serialization. The three regenerated PNGs are byte-identical to the committed figures. Table~\ref{tab:verify} consistently cites the committed run except for its explicitly labelled fresh test row.
