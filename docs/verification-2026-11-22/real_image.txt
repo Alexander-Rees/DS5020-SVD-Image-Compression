@@ -1,0 +1,301 @@
+Input: camera.png, shape=(512, 512), channels=1, dtype=uint8, missing=0, range=[0, 255], mean=129.0607, PNG size=139512 bytes
+First rank retaining 95%: 3; energy=95.09558793%; prior rank energy=92.03269190%
+95% rank vs NumPy                max|diff| = 0.000e+00   rel = 0.000e+00   PASS
+Singular values                  max|diff| = 3.553e-14   rel = 1.916e-16   PASS
+SVD U orthogonality              max|diff| = 1.627e-13   rel = 1.543e-13   PASS
+SVD V orthogonality              max|diff| = 8.882e-16   rel = 5.324e-16   PASS
+V subspace 1:1                   max|diff| = 3.678e-16   rel = 4.342e-15   PASS
+U paired subspace 1:1            max|diff| = 4.927e-16   rel = 1.194e-15   PASS
+V subspace 2:2                   max|diff| = 2.338e-14   rel = 2.493e-13   PASS
+U paired subspace 2:2            max|diff| = 1.311e-14   rel = 1.946e-13   PASS
+V subspace 3:3                   max|diff| = 2.213e-14   rel = 2.642e-13   PASS
+U paired subspace 3:3            max|diff| = 3.015e-14   rel = 3.244e-13   PASS
+V subspace 4:4                   max|diff| = 1.456e-14   rel = 1.108e-13   PASS
+U paired subspace 4:4            max|diff| = 1.313e-14   rel = 1.394e-13   PASS
+V subspace 5:5                   max|diff| = 2.991e-14   rel = 1.670e-13   PASS
+U paired subspace 5:5            max|diff| = 1.621e-14   rel = 1.518e-13   PASS
+V subspace 6:6                   max|diff| = 5.732e-14   rel = 3.542e-13   PASS
+U paired subspace 6:6            max|diff| = 5.125e-14   rel = 3.423e-13   PASS
+V subspace 7:7                   max|diff| = 1.519e-13   rel = 8.590e-13   PASS
+U paired subspace 7:7            max|diff| = 1.281e-13   rel = 8.312e-13   PASS
+V subspace 8:8                   max|diff| = 5.090e-13   rel = 2.753e-12   PASS
+U paired subspace 8:8            max|diff| = 3.896e-13   rel = 2.725e-12   PASS
+V subspace 9:9                   max|diff| = 4.279e-13   rel = 2.655e-12   PASS
+U paired subspace 9:9            max|diff| = 3.341e-13   rel = 2.699e-12   PASS
+V subspace 10:10                 max|diff| = 8.744e-14   rel = 6.073e-13   PASS
+U paired subspace 10:10          max|diff| = 1.047e-13   rel = 5.875e-13   PASS
+V subspace 11:11                 max|diff| = 2.530e-13   rel = 1.796e-12   PASS
+U paired subspace 11:11          max|diff| = 2.594e-13   rel = 1.753e-12   PASS
+V subspace 12:12                 max|diff| = 2.176e-13   rel = 1.934e-12   PASS
+U paired subspace 12:12          max|diff| = 2.812e-13   rel = 1.976e-12   PASS
+V subspace 13:13                 max|diff| = 1.565e-13   rel = 9.703e-13   PASS
+U paired subspace 13:13          max|diff| = 1.224e-13   rel = 9.885e-13   PASS
+V subspace 14:14                 max|diff| = 2.106e-13   rel = 9.277e-13   PASS
+U paired subspace 14:14          max|diff| = 1.408e-13   rel = 9.137e-13   PASS
+V subspace 15:15                 max|diff| = 6.069e-13   rel = 2.840e-12   PASS
+U paired subspace 15:15          max|diff| = 4.736e-13   rel = 2.812e-12   PASS
+V subspace 16:16                 max|diff| = 6.756e-13   rel = 2.753e-12   PASS
+U paired subspace 16:16          max|diff| = 4.500e-13   rel = 2.788e-12   PASS
+V subspace 17:17                 max|diff| = 4.745e-13   rel = 2.352e-12   PASS
+U paired subspace 17:17          max|diff| = 3.462e-13   rel = 2.319e-12   PASS
+V subspace 18:18                 max|diff| = 4.477e-13   rel = 2.508e-12   PASS
+U paired subspace 18:18          max|diff| = 3.683e-13   rel = 2.530e-12   PASS
+V subspace 19:19                 max|diff| = 6.411e-13   rel = 2.856e-12   PASS
+U paired subspace 19:19          max|diff| = 3.578e-13   rel = 2.837e-12   PASS
+V subspace 20:20                 max|diff| = 8.079e-13   rel = 3.703e-12   PASS
+U paired subspace 20:20          max|diff| = 5.478e-13   rel = 3.702e-12   PASS
+V subspace 21:21                 max|diff| = 7.099e-13   rel = 2.708e-12   PASS
+U paired subspace 21:21          max|diff| = 3.590e-13   rel = 2.733e-12   PASS
+V subspace 22:22                 max|diff| = 4.119e-13   rel = 2.027e-12   PASS
+U paired subspace 22:22          max|diff| = 2.772e-13   rel = 2.001e-12   PASS
+V subspace 23:23                 max|diff| = 4.995e-13   rel = 2.459e-12   PASS
+U paired subspace 23:23          max|diff| = 4.276e-13   rel = 2.466e-12   PASS
+V subspace 24:24                 max|diff| = 6.666e-13   rel = 2.811e-12   PASS
+U paired subspace 24:24          max|diff| = 4.058e-13   rel = 2.798e-12   PASS
+V subspace 25:25                 max|diff| = 3.825e-13   rel = 2.357e-12   PASS
+U paired subspace 25:25          max|diff| = 4.528e-13   rel = 2.399e-12   PASS
+V subspace 26:26                 max|diff| = 1.953e-13   rel = 1.067e-12   PASS
+U paired subspace 26:26          max|diff| = 1.707e-13   rel = 1.054e-12   PASS
+V subspace 27:27                 max|diff| = 3.327e-13   rel = 1.678e-12   PASS
+U paired subspace 27:27          max|diff| = 2.013e-13   rel = 1.655e-12   PASS
+V subspace 28:28                 max|diff| = 4.642e-13   rel = 2.802e-12   PASS
+U paired subspace 28:28          max|diff| = 4.249e-13   rel = 2.766e-12   PASS
+V subspace 29:29                 max|diff| = 5.272e-13   rel = 2.617e-12   PASS
+U paired subspace 29:29          max|diff| = 4.046e-13   rel = 2.666e-12   PASS
+V subspace 30:30                 max|diff| = 9.880e-13   rel = 5.435e-12   PASS
+U paired subspace 30:30          max|diff| = 6.578e-13   rel = 5.381e-12   PASS
+V subspace 31:31                 max|diff| = 8.590e-13   rel = 5.456e-12   PASS
+U paired subspace 31:31          max|diff| = 9.285e-13   rel = 5.506e-12   PASS
+V subspace 32:32                 max|diff| = 9.782e-13   rel = 4.011e-12   PASS
+U paired subspace 32:32          max|diff| = 5.713e-13   rel = 3.984e-12   PASS
+V subspace 33:33                 max|diff| = 8.914e-13   rel = 4.635e-12   PASS
+U paired subspace 33:33          max|diff| = 8.738e-13   rel = 4.639e-12   PASS
+V subspace 34:34                 max|diff| = 5.434e-13   rel = 3.890e-12   PASS
+U paired subspace 34:34          max|diff| = 7.138e-13   rel = 3.864e-12   PASS
+V subspace 35:35                 max|diff| = 1.073e-12   rel = 4.152e-12   PASS
+U paired subspace 35:35          max|diff| = 6.184e-13   rel = 4.159e-12   PASS
+V subspace 36:36                 max|diff| = 4.571e-13   rel = 3.170e-12   PASS
+U paired subspace 36:36          max|diff| = 3.980e-13   rel = 3.212e-12   PASS
+V subspace 37:37                 max|diff| = 4.809e-13   rel = 2.418e-12   PASS
+U paired subspace 37:37          max|diff| = 3.737e-13   rel = 2.384e-12   PASS
+V subspace 38:38                 max|diff| = 5.211e-13   rel = 3.293e-12   PASS
+U paired subspace 38:38          max|diff| = 5.015e-13   rel = 3.282e-12   PASS
+V subspace 39:39                 max|diff| = 1.037e-12   rel = 5.644e-12   PASS
+U paired subspace 39:39          max|diff| = 7.846e-13   rel = 5.611e-12   PASS
+V subspace 40:40                 max|diff| = 1.035e-12   rel = 5.520e-12   PASS
+U paired subspace 40:40          max|diff| = 9.344e-13   rel = 5.550e-12   PASS
+V subspace 41:41                 max|diff| = 5.525e-13   rel = 4.181e-12   PASS
+U paired subspace 41:41          max|diff| = 7.917e-13   rel = 4.151e-12   PASS
+V subspace 42:42                 max|diff| = 8.469e-13   rel = 4.370e-12   PASS
+U paired subspace 42:42          max|diff| = 6.995e-13   rel = 4.385e-12   PASS
+V subspace 43:43                 max|diff| = 1.274e-12   rel = 8.169e-12   PASS
+U paired subspace 43:43          max|diff| = 1.850e-12   rel = 8.119e-12   PASS
+V subspace 44:44                 max|diff| = 1.460e-12   rel = 8.303e-12   PASS
+U paired subspace 44:44          max|diff| = 1.461e-12   rel = 8.340e-12   PASS
+V subspace 45:45                 max|diff| = 8.697e-13   rel = 4.004e-12   PASS
+U paired subspace 45:45          max|diff| = 5.594e-13   rel = 4.006e-12   PASS
+V subspace 46:46                 max|diff| = 6.089e-13   rel = 3.586e-12   PASS
+U paired subspace 46:46          max|diff| = 5.313e-13   rel = 3.582e-12   PASS
+V subspace 47:47                 max|diff| = 1.747e-12   rel = 7.173e-12   PASS
+U paired subspace 47:47          max|diff| = 1.617e-12   rel = 7.152e-12   PASS
+V subspace 48:48                 max|diff| = 1.924e-12   rel = 9.192e-12   PASS
+U paired subspace 48:48          max|diff| = 1.634e-12   rel = 9.169e-12   PASS
+V subspace 49:49                 max|diff| = 1.726e-12   rel = 6.822e-12   PASS
+U paired subspace 49:49          max|diff| = 1.223e-12   rel = 6.848e-12   PASS
+V subspace 50:50                 max|diff| = 7.120e-13   rel = 4.447e-12   PASS
+U paired subspace 50:50          max|diff| = 7.071e-13   rel = 4.442e-12   PASS
+Shape=(512, 512), ndim=2, finite=262144/262144, dtype=float64, range=[0, 1]
+Gram symmetry                    max|diff| = 0.000e+00   rel = 0.000e+00   PASS
+U.T @ U                          max|diff| = 1.627e-13   rel = 1.543e-13   PASS
+V.T @ V                          max|diff| = 8.882e-16   rel = 5.324e-16   PASS
+Min Gram eigenvalue=5.5168962e-10, PSD=True, cutoff=8.8050313e-09, min retained eigenvalue=8.8182777, positive above cutoff=True, descending=True
+Gram positive semidefinite       max|diff| = 0.000e+00   rel = 0.000e+00   PASS
+Retained values above cutoff     max|diff| = 0.000e+00   rel = 0.000e+00   PASS
+Descending singular values       max|diff| = 0.000e+00   rel = 0.000e+00   PASS
+Measured squared residual=359.670318826, library tail=359.670318826
+Squared residual vs tail         max|diff| = 1.137e-13   rel = 3.161e-16   PASS
+Storage: 51250/262144 scalars, factors=float64, pixels=uint8, 410000/262144 raw bytes
+Rank 5: energy=97.04111655%; storage=5125/262144 scalars
+  Raw factor bytes=41000; compressed NPZ bytes=39722
+  Squared residual=2633.85038043, library tail=2633.85038043
+Rank 5 squared error vs tail     max|diff| = 9.095e-13   rel = 3.453e-16   PASS
+Singular values                  max|diff| = 3.553e-14   rel = 1.430e-16   PASS
+SVD U orthogonality              max|diff| = 1.251e-13   rel = 9.892e-14   PASS
+SVD V orthogonality              max|diff| = 3.331e-16   rel = 2.922e-16   PASS
+V subspace 1:1                   max|diff| = 3.678e-16   rel = 4.342e-15   PASS
+U paired subspace 1:1            max|diff| = 4.927e-16   rel = 1.194e-15   PASS
+V subspace 2:2                   max|diff| = 2.338e-14   rel = 2.493e-13   PASS
+U paired subspace 2:2            max|diff| = 1.311e-14   rel = 1.946e-13   PASS
+V subspace 3:3                   max|diff| = 2.213e-14   rel = 2.642e-13   PASS
+U paired subspace 3:3            max|diff| = 3.015e-14   rel = 3.244e-13   PASS
+V subspace 4:4                   max|diff| = 1.456e-14   rel = 1.108e-13   PASS
+U paired subspace 4:4            max|diff| = 1.313e-14   rel = 1.394e-13   PASS
+V subspace 5:5                   max|diff| = 2.991e-14   rel = 1.670e-13   PASS
+U paired subspace 5:5            max|diff| = 1.621e-14   rel = 1.518e-13   PASS
+Rank 20: energy=98.97569900%; storage=20500/262144 scalars
+  Raw factor bytes=164000; compressed NPZ bytes=157586
+  Squared residual=911.781634672, library tail=911.781634672
+Rank 20 squared error vs tail    max|diff| = 0.000e+00   rel = 0.000e+00   PASS
+Singular values                  max|diff| = 3.553e-14   rel = 1.878e-16   PASS
+SVD U orthogonality              max|diff| = 1.300e-13   rel = 1.294e-13   PASS
+SVD V orthogonality              max|diff| = 3.331e-16   rel = 2.692e-16   PASS
+V subspace 1:1                   max|diff| = 3.678e-16   rel = 4.342e-15   PASS
+U paired subspace 1:1            max|diff| = 4.927e-16   rel = 1.194e-15   PASS
+V subspace 2:2                   max|diff| = 2.338e-14   rel = 2.493e-13   PASS
+U paired subspace 2:2            max|diff| = 1.311e-14   rel = 1.946e-13   PASS
+V subspace 3:3                   max|diff| = 2.213e-14   rel = 2.642e-13   PASS
+U paired subspace 3:3            max|diff| = 3.015e-14   rel = 3.244e-13   PASS
+V subspace 4:4                   max|diff| = 1.456e-14   rel = 1.108e-13   PASS
+U paired subspace 4:4            max|diff| = 1.313e-14   rel = 1.394e-13   PASS
+V subspace 5:5                   max|diff| = 2.991e-14   rel = 1.670e-13   PASS
+U paired subspace 5:5            max|diff| = 1.621e-14   rel = 1.518e-13   PASS
+V subspace 6:6                   max|diff| = 5.732e-14   rel = 3.542e-13   PASS
+U paired subspace 6:6            max|diff| = 5.125e-14   rel = 3.423e-13   PASS
+V subspace 7:7                   max|diff| = 1.519e-13   rel = 8.590e-13   PASS
+U paired subspace 7:7            max|diff| = 1.281e-13   rel = 8.312e-13   PASS
+V subspace 8:8                   max|diff| = 5.090e-13   rel = 2.753e-12   PASS
+U paired subspace 8:8            max|diff| = 3.896e-13   rel = 2.725e-12   PASS
+V subspace 9:9                   max|diff| = 4.279e-13   rel = 2.655e-12   PASS
+U paired subspace 9:9            max|diff| = 3.341e-13   rel = 2.699e-12   PASS
+V subspace 10:10                 max|diff| = 8.744e-14   rel = 6.073e-13   PASS
+U paired subspace 10:10          max|diff| = 1.047e-13   rel = 5.875e-13   PASS
+V subspace 11:11                 max|diff| = 2.530e-13   rel = 1.796e-12   PASS
+U paired subspace 11:11          max|diff| = 2.594e-13   rel = 1.753e-12   PASS
+V subspace 12:12                 max|diff| = 2.176e-13   rel = 1.934e-12   PASS
+U paired subspace 12:12          max|diff| = 2.812e-13   rel = 1.976e-12   PASS
+V subspace 13:13                 max|diff| = 1.565e-13   rel = 9.703e-13   PASS
+U paired subspace 13:13          max|diff| = 1.224e-13   rel = 9.885e-13   PASS
+V subspace 14:14                 max|diff| = 2.106e-13   rel = 9.277e-13   PASS
+U paired subspace 14:14          max|diff| = 1.408e-13   rel = 9.137e-13   PASS
+V subspace 15:15                 max|diff| = 6.069e-13   rel = 2.840e-12   PASS
+U paired subspace 15:15          max|diff| = 4.736e-13   rel = 2.812e-12   PASS
+V subspace 16:16                 max|diff| = 6.756e-13   rel = 2.753e-12   PASS
+U paired subspace 16:16          max|diff| = 4.500e-13   rel = 2.788e-12   PASS
+V subspace 17:17                 max|diff| = 4.745e-13   rel = 2.352e-12   PASS
+U paired subspace 17:17          max|diff| = 3.462e-13   rel = 2.319e-12   PASS
+V subspace 18:18                 max|diff| = 4.477e-13   rel = 2.508e-12   PASS
+U paired subspace 18:18          max|diff| = 3.683e-13   rel = 2.530e-12   PASS
+V subspace 19:19                 max|diff| = 6.411e-13   rel = 2.856e-12   PASS
+U paired subspace 19:19          max|diff| = 3.578e-13   rel = 2.837e-12   PASS
+V subspace 20:20                 max|diff| = 8.079e-13   rel = 3.703e-12   PASS
+U paired subspace 20:20          max|diff| = 5.478e-13   rel = 3.702e-12   PASS
+Rank 50: energy=99.59594419%; storage=51250/262144 scalars
+  Raw factor bytes=410000; compressed NPZ bytes=393356
+  Squared residual=359.670318826, library tail=359.670318826
+Rank 50 squared error vs tail    max|diff| = 1.137e-13   rel = 3.161e-16   PASS
+Singular values                  max|diff| = 3.553e-14   rel = 1.916e-16   PASS
+SVD U orthogonality              max|diff| = 1.627e-13   rel = 1.543e-13   PASS
+SVD V orthogonality              max|diff| = 8.882e-16   rel = 5.324e-16   PASS
+V subspace 1:1                   max|diff| = 3.678e-16   rel = 4.342e-15   PASS
+U paired subspace 1:1            max|diff| = 4.927e-16   rel = 1.194e-15   PASS
+V subspace 2:2                   max|diff| = 2.338e-14   rel = 2.493e-13   PASS
+U paired subspace 2:2            max|diff| = 1.311e-14   rel = 1.946e-13   PASS
+V subspace 3:3                   max|diff| = 2.213e-14   rel = 2.642e-13   PASS
+U paired subspace 3:3            max|diff| = 3.015e-14   rel = 3.244e-13   PASS
+V subspace 4:4                   max|diff| = 1.456e-14   rel = 1.108e-13   PASS
+U paired subspace 4:4            max|diff| = 1.313e-14   rel = 1.394e-13   PASS
+V subspace 5:5                   max|diff| = 2.991e-14   rel = 1.670e-13   PASS
+U paired subspace 5:5            max|diff| = 1.621e-14   rel = 1.518e-13   PASS
+V subspace 6:6                   max|diff| = 5.732e-14   rel = 3.542e-13   PASS
+U paired subspace 6:6            max|diff| = 5.125e-14   rel = 3.423e-13   PASS
+V subspace 7:7                   max|diff| = 1.519e-13   rel = 8.590e-13   PASS
+U paired subspace 7:7            max|diff| = 1.281e-13   rel = 8.312e-13   PASS
+V subspace 8:8                   max|diff| = 5.090e-13   rel = 2.753e-12   PASS
+U paired subspace 8:8            max|diff| = 3.896e-13   rel = 2.725e-12   PASS
+V subspace 9:9                   max|diff| = 4.279e-13   rel = 2.655e-12   PASS
+U paired subspace 9:9            max|diff| = 3.341e-13   rel = 2.699e-12   PASS
+V subspace 10:10                 max|diff| = 8.744e-14   rel = 6.073e-13   PASS
+U paired subspace 10:10          max|diff| = 1.047e-13   rel = 5.875e-13   PASS
+V subspace 11:11                 max|diff| = 2.530e-13   rel = 1.796e-12   PASS
+U paired subspace 11:11          max|diff| = 2.594e-13   rel = 1.753e-12   PASS
+V subspace 12:12                 max|diff| = 2.176e-13   rel = 1.934e-12   PASS
+U paired subspace 12:12          max|diff| = 2.812e-13   rel = 1.976e-12   PASS
+V subspace 13:13                 max|diff| = 1.565e-13   rel = 9.703e-13   PASS
+U paired subspace 13:13          max|diff| = 1.224e-13   rel = 9.885e-13   PASS
+V subspace 14:14                 max|diff| = 2.106e-13   rel = 9.277e-13   PASS
+U paired subspace 14:14          max|diff| = 1.408e-13   rel = 9.137e-13   PASS
+V subspace 15:15                 max|diff| = 6.069e-13   rel = 2.840e-12   PASS
+U paired subspace 15:15          max|diff| = 4.736e-13   rel = 2.812e-12   PASS
+V subspace 16:16                 max|diff| = 6.756e-13   rel = 2.753e-12   PASS
+U paired subspace 16:16          max|diff| = 4.500e-13   rel = 2.788e-12   PASS
+V subspace 17:17                 max|diff| = 4.745e-13   rel = 2.352e-12   PASS
+U paired subspace 17:17          max|diff| = 3.462e-13   rel = 2.319e-12   PASS
+V subspace 18:18                 max|diff| = 4.477e-13   rel = 2.508e-12   PASS
+U paired subspace 18:18          max|diff| = 3.683e-13   rel = 2.530e-12   PASS
+V subspace 19:19                 max|diff| = 6.411e-13   rel = 2.856e-12   PASS
+U paired subspace 19:19          max|diff| = 3.578e-13   rel = 2.837e-12   PASS
+V subspace 20:20                 max|diff| = 8.079e-13   rel = 3.703e-12   PASS
+U paired subspace 20:20          max|diff| = 5.478e-13   rel = 3.702e-12   PASS
+V subspace 21:21                 max|diff| = 7.099e-13   rel = 2.708e-12   PASS
+U paired subspace 21:21          max|diff| = 3.590e-13   rel = 2.733e-12   PASS
+V subspace 22:22                 max|diff| = 4.119e-13   rel = 2.027e-12   PASS
+U paired subspace 22:22          max|diff| = 2.772e-13   rel = 2.001e-12   PASS
+V subspace 23:23                 max|diff| = 4.995e-13   rel = 2.459e-12   PASS
+U paired subspace 23:23          max|diff| = 4.276e-13   rel = 2.466e-12   PASS
+V subspace 24:24                 max|diff| = 6.666e-13   rel = 2.811e-12   PASS
+U paired subspace 24:24          max|diff| = 4.058e-13   rel = 2.798e-12   PASS
+V subspace 25:25                 max|diff| = 3.825e-13   rel = 2.357e-12   PASS
+U paired subspace 25:25          max|diff| = 4.528e-13   rel = 2.399e-12   PASS
+V subspace 26:26                 max|diff| = 1.953e-13   rel = 1.067e-12   PASS
+U paired subspace 26:26          max|diff| = 1.707e-13   rel = 1.054e-12   PASS
+V subspace 27:27                 max|diff| = 3.327e-13   rel = 1.678e-12   PASS
+U paired subspace 27:27          max|diff| = 2.013e-13   rel = 1.655e-12   PASS
+V subspace 28:28                 max|diff| = 4.642e-13   rel = 2.802e-12   PASS
+U paired subspace 28:28          max|diff| = 4.249e-13   rel = 2.766e-12   PASS
+V subspace 29:29                 max|diff| = 5.272e-13   rel = 2.617e-12   PASS
+U paired subspace 29:29          max|diff| = 4.046e-13   rel = 2.666e-12   PASS
+V subspace 30:30                 max|diff| = 9.880e-13   rel = 5.435e-12   PASS
+U paired subspace 30:30          max|diff| = 6.578e-13   rel = 5.381e-12   PASS
+V subspace 31:31                 max|diff| = 8.590e-13   rel = 5.456e-12   PASS
+U paired subspace 31:31          max|diff| = 9.285e-13   rel = 5.506e-12   PASS
+V subspace 32:32                 max|diff| = 9.782e-13   rel = 4.011e-12   PASS
+U paired subspace 32:32          max|diff| = 5.713e-13   rel = 3.984e-12   PASS
+V subspace 33:33                 max|diff| = 8.914e-13   rel = 4.635e-12   PASS
+U paired subspace 33:33          max|diff| = 8.738e-13   rel = 4.639e-12   PASS
+V subspace 34:34                 max|diff| = 5.434e-13   rel = 3.890e-12   PASS
+U paired subspace 34:34          max|diff| = 7.138e-13   rel = 3.864e-12   PASS
+V subspace 35:35                 max|diff| = 1.073e-12   rel = 4.152e-12   PASS
+U paired subspace 35:35          max|diff| = 6.184e-13   rel = 4.159e-12   PASS
+V subspace 36:36                 max|diff| = 4.571e-13   rel = 3.170e-12   PASS
+U paired subspace 36:36          max|diff| = 3.980e-13   rel = 3.212e-12   PASS
+V subspace 37:37                 max|diff| = 4.809e-13   rel = 2.418e-12   PASS
+U paired subspace 37:37          max|diff| = 3.737e-13   rel = 2.384e-12   PASS
+V subspace 38:38                 max|diff| = 5.211e-13   rel = 3.293e-12   PASS
+U paired subspace 38:38          max|diff| = 5.015e-13   rel = 3.282e-12   PASS
+V subspace 39:39                 max|diff| = 1.037e-12   rel = 5.644e-12   PASS
+U paired subspace 39:39          max|diff| = 7.846e-13   rel = 5.611e-12   PASS
+V subspace 40:40                 max|diff| = 1.035e-12   rel = 5.520e-12   PASS
+U paired subspace 40:40          max|diff| = 9.344e-13   rel = 5.550e-12   PASS
+V subspace 41:41                 max|diff| = 5.525e-13   rel = 4.181e-12   PASS
+U paired subspace 41:41          max|diff| = 7.917e-13   rel = 4.151e-12   PASS
+V subspace 42:42                 max|diff| = 8.469e-13   rel = 4.370e-12   PASS
+U paired subspace 42:42          max|diff| = 6.995e-13   rel = 4.385e-12   PASS
+V subspace 43:43                 max|diff| = 1.274e-12   rel = 8.169e-12   PASS
+U paired subspace 43:43          max|diff| = 1.850e-12   rel = 8.119e-12   PASS
+V subspace 44:44                 max|diff| = 1.460e-12   rel = 8.303e-12   PASS
+U paired subspace 44:44          max|diff| = 1.461e-12   rel = 8.340e-12   PASS
+V subspace 45:45                 max|diff| = 8.697e-13   rel = 4.004e-12   PASS
+U paired subspace 45:45          max|diff| = 5.594e-13   rel = 4.006e-12   PASS
+V subspace 46:46                 max|diff| = 6.089e-13   rel = 3.586e-12   PASS
+U paired subspace 46:46          max|diff| = 5.313e-13   rel = 3.582e-12   PASS
+V subspace 47:47                 max|diff| = 1.747e-12   rel = 7.173e-12   PASS
+U paired subspace 47:47          max|diff| = 1.617e-12   rel = 7.152e-12   PASS
+V subspace 48:48                 max|diff| = 1.924e-12   rel = 9.192e-12   PASS
+U paired subspace 48:48          max|diff| = 1.634e-12   rel = 9.169e-12   PASS
+V subspace 49:49                 max|diff| = 1.726e-12   rel = 6.822e-12   PASS
+U paired subspace 49:49          max|diff| = 1.223e-12   rel = 6.848e-12   PASS
+V subspace 50:50                 max|diff| = 7.120e-13   rel = 4.447e-12   PASS
+U paired subspace 50:50          max|diff| = 7.071e-13   rel = 4.442e-12   PASS
+Rank 3: energy=95.09558793%; storage=3075/262144 scalars
+  Raw factor bytes=24600; compressed NPZ bytes=23947
+  Squared residual=4365.6628602, library tail=4365.6628602
+Rank 3 squared error vs tail     max|diff| = 3.638e-12   rel = 8.333e-16   PASS
+Singular values                  max|diff| = 2.132e-14   rel = 7.327e-17   PASS
+SVD U orthogonality              max|diff| = 1.251e-13   rel = 1.024e-13   PASS
+SVD V orthogonality              max|diff| = 2.220e-16   rel = 1.797e-16   PASS
+V subspace 1:1                   max|diff| = 3.678e-16   rel = 4.342e-15   PASS
+U paired subspace 1:1            max|diff| = 4.927e-16   rel = 1.194e-15   PASS
+V subspace 2:2                   max|diff| = 2.338e-14   rel = 2.493e-13   PASS
+U paired subspace 2:2            max|diff| = 1.311e-14   rel = 1.946e-13   PASS
+V subspace 3:3                   max|diff| = 2.213e-14   rel = 2.642e-13   PASS
+U paired subspace 3:3            max|diff| = 3.015e-14   rel = 3.244e-13   PASS

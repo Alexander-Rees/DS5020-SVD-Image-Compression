@@ -1,0 +1,23 @@
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/samopk/.cache/fontconfig
+	/Users/samopk/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/samopk/.cache/fontconfig
+	/Users/samopk/.fontconfig
+Matplotlib is building the font cache; this may take a moment.
+test_assumption_failure_exits_unsuccessfully (test_verification.VerificationTests.test_assumption_failure_exits_unsuccessfully) ... ok
+test_distinct_values_cannot_rotate (test_verification.VerificationTests.test_distinct_values_cannot_rotate) ... ok
+test_failed_report_exits_unsuccessfully (test_verification.VerificationTests.test_failed_report_exits_unsuccessfully) ... ok
+test_inconsistent_left_right_rotations_fail (test_verification.VerificationTests.test_inconsistent_left_right_rotations_fail) ... ok
+test_rotated_tied_basis_and_partial_tied_block_pass (test_verification.VerificationTests.test_rotated_tied_basis_and_partial_tied_block_pass) ... ok
+test_sign_flips_pass (test_verification.VerificationTests.test_sign_flips_pass) ... ok
+test_wrong_spectrum_and_nonorthogonal_vectors_fail (test_verification.VerificationTests.test_wrong_spectrum_and_nonorthogonal_vectors_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.002s
+
+OK
